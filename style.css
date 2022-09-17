@@ -1,0 +1,255 @@
+body {
+  background-image: url('img/fond.jpg');
+  font-family: 'K2D', sans-serif;
+}
+
+main,
+.nos {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background-color: #001500;
+  overflow: hidden;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  max-width: 1280px;
+  z-index: 1000;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  width: 20%;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 20px 0;
+  background-color: black;
+}
+
+/* aside {
+  display: flex;
+  flex-direction: column;
+} */
+
+.Menu1 {
+  display: none;
+}
+
+.Menu1 li {
+  border-top: 2px solid transparent;
+}
+
+nav ul li:hover .Menu1 {
+  display: block;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  color: green;
+  text-shadow: 0 0 3px #fff;
+}
+
+aside {
+  width: 30%;
+  text-align: center;
+  color: #001500;
+}
+
+#left {
+  margin-bottom: 20px;
+}
+
+#left1 h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+#left1 h3 {
+  margin: 0;
+}
+
+#left1 {
+  background: #fff;
+  text-align: center;
+}
+
+#left1 p {
+  text-align: justify;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 1em;
+}
+
+#inscrivez {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 2em;
+}
+
+#inscrivez a {
+  color: #fff;
+}
+
+section {
+  width: 60%;
+}
+
+#right h1 {
+  background: url(img/bienvenue.jpg);
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  height: 300px;
+  background-position: 0 bottom;
+  text-shadow: 0 0 3px#001500;
+  margin-bottom: 0;
+}
+
+article {
+  width: 45%;
+  text-align: left;
+}
+
+article h2 {
+  color: #fff;
+  background: black;
+  padding-left: 5px;
+}
+
+#nos1 a {
+  color: #fff;
+  font-size: 20px;
+}
+
+#nos1 h2 {
+  margin-bottom: 0;
+}
+
+article ul {
+  list-style-image: url('img/fleche.gif');
+  text-align: left;
+}
+
+#une p {
+  padding: 0 0.5em;
+  text-align: justify;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: black;
+  width: 99%;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+#map {
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+#map h2 {
+  color: #fff;
+}
+
+iframe {
+  margin-left: 110%;
+  transition: 1s;
+}
+
+#map:hover iframe {
+  margin-left: 0;
+}
+
+form {
+  margin: 1em 5%;
+  border: 1px solid #001500;
+  background-color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #fff;
+  margin-bottom: 50px;
+}
+
+form h1 {
+  padding-left: 1em;
+}
+
+form label {
+  display: inline-block;
+  width: 35%;
+}
+
+form ul {
+  list-style-type: none;
+}
+
+form li {
+  margin-bottom: 10px;
+}
+
+textarea {
+  vertical-align: text-top;
+}
+
+fieldset {
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid #001500;
+}
+
+input,
+textarea {
+  background: #001500;
+  border-radius: 8px;
+  padding: 5px;
+  transition: 1s;
+}
+
+.boutons input,
+#fichier {
+  color: #fff;
+  padding: 0.5em;
+}
+
+.droite {
+  width: 50%;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #fff;
+  color: #001500;
+  outline: 0;
+}

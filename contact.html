@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=K2D&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0aa4bbfaa0.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS-10-Contact</title>
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" title="Accueil"><i class="fas fa-home"></i> Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Parcours"><i class="fas fa-golf-ball"></i> Parcours</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Domaine"><i class="fas fa-tree"></i> La Domaine</a>
+                        <ul class="Menu1">
+                            <li><a href="#">Le parc</a></li>
+                            <li><a href="#">Hotel</a></li>
+                            <li><a href="#">Restaurant</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" title="Tournois"><i class="fas fa-clock"></i> Les Tournois</a>
+
+                    </li>
+                    <li>
+                        <a href="contact.html" title="Contact"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+                <a href="index.html"><img src="img/bandeau.jpg" width="100%" alt="bendeau"></a>
+          
+        </header>
+
+        <main id="left">
+            <section id="contact">
+                <form>
+                   <h1> Contacter le Golf du CEFii :</h1>
+                    <ul>
+                        <li><label for="nom">Nom* :</label><input class="droite" type="text" id="nom" name="nom" required autofocus placeholder="Votre nom" /></li>
+                        <li><label for="prenom">Prénom :</label><input class="droite" type="text" id="prenom" name="prenom" placeholder="Votre prénom" /></li>
+                        <li><label for="mail">Email* :</label><input class="droite" type="email" id="mail" name="mail" required placeholder="xxx@yyy.zz" /></li>
+                        <li><label for="tel">Téléphone :</label><input class="droite" type="tel" id="tel" name="tel" placeholder="0123456789" /></li>
+                        <li>
+                            <fieldset>
+                                <legend>Vous êtes :</legend>
+                                <input type="radio" name="cat" id="part" value="part" /><label for="part">Amateur</label>
+                                <input type="radio" name="cat" id="pro" value="pro" /><label for="pro">Professionnel</label>
+                            </fieldset>
+                        </li>
+                        <li><label for="demande">Vous souhaitez :</label>
+                            <select id="demande" name="demande" class="droite">
+                                <option value="resa">Réserver un parcours</option>
+                                <option value="tarif">Demander les tarifs</option>
+                                <option value="inscr">Vous inscrire à un tournoi</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </li>
+                        <li><label for="txt">Votre message* :</label>
+                            <textarea class="droite" id="txt" name="txt" cols="14" rows="6"></textarea>
+                        </li>
+                        <li><label for="fichier">Pièce jointe :</label><input class="droite" id="fichier" name="fichier" type="file" /></li>
+                        <li class="boutons"><label></label><input type="reset" value="Effacer" /> <input type="submit" /></li>
+                    </ul>
+                </form>
+                </section>
+                <aside id="map">
+                    <h2>Nous rejoindre</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10789.037850479011!2d-0.5590871!3d47.4653731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0a4ea6efc45f0a0!2sCEFII+-+Centre+d&#39;Etudes+et+de+Formation+Informatique+et+Internet!5e0!3m2!1sfr!2sfr!4v1436521470185" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </aside>
+         
+        </main>
+
+        <footer>
+            <p>
+                &copy; Copyright 2014 | Production interne | &reg; Tous droits réservés
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
